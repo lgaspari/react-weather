@@ -1,12 +1,12 @@
 import { ThemeProvider } from '@material-ui/core/styles';
 import theme from './config/theme';
-import Landing from './pages/Landing';
+import Weather from './pages/Weather';
 import './App.css';
 
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Landing />
+      <Weather />
     </ThemeProvider>
   );
 };

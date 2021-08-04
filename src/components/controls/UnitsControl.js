@@ -1,7 +1,7 @@
 import { Typography } from '@material-ui/core';
 import { ToggleButton, ToggleButtonGroup } from '@material-ui/lab';
 import { useMemo } from 'react';
-import UNITS from '../config/units';
+import UNITS from '../../config/units';
 
 const UnitsControl = ({ units, onChange }) => {
   const options = useMemo(
