@@ -9,10 +9,6 @@ body {
   overflow: hidden;
 }
 
-body {
-  transition: ease-in-out 0.5s background;
-}
-
 #root {
   display: flex;
   width: 100vw;

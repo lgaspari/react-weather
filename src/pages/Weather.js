@@ -55,7 +55,6 @@ const Landing = () => {
         transition: 'ease-in-out 0.5s background',
       }}
     >
-
       {/* Header */}
       <Grid item>
         <Box display="flex" justifyContent="space-between" padding={2}>
@@ -78,7 +77,6 @@ const Landing = () => {
           )}
         </Box>
       </Grid>
-
     </Grid>
   );
 };

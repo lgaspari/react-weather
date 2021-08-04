@@ -28,7 +28,7 @@ const WeatherCard = ({ weather }) => {
         display="flex"
         flexDirection="column"
         justifyContent="center"
-        padding={2}
+        padding={4}
         paddingBottom={6}
       >
         <Box paddingBottom={4}>
@@ -38,10 +38,8 @@ const WeatherCard = ({ weather }) => {
             label={`${name}, ${country}`}
             size="small"
           />
-          </Box>
-
-        <Typography variant="h6">{description}</Typography>
-        {/* <Typography variant="caption">{name}, {country}</Typography> */}
+        </Box>
+        <Typography variant="subtitle1">{description}</Typography>
         <img
           alt={description}
           src={`http://openweathermap.org/img/wn/${icon}@2x.png`}
