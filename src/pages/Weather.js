@@ -50,7 +50,10 @@ const Landing = () => {
     <Grid
       container
       direction="column"
-      style={{ backgroundColor: theme.palette[backgroundColor].main }}
+      style={{
+        backgroundColor: theme.palette[backgroundColor].main,
+        transition: 'ease-in-out 0.5s background',
+      }}
     >
 
       {/* Header */}

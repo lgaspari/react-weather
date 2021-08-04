@@ -35,7 +35,7 @@ const ThemeControl = ({ backgroundColor, onChange }) => {
               style={{
                 ...styles.toggleButton,
                 backgroundColor: theme.palette[value].main,
-                borderColor: value === backgroundColor ? '#000' : styles.toggleButton.borderColor,
+                borderColor: value === backgroundColor ? '#fff' : styles.toggleButton.borderColor,
               }}
               value={value}
             >
@@ -58,7 +58,7 @@ const styles = {
   },
   toggleButton: {
     borderRadius: '50%',
-    borderColor: '#E9E9E9',
+    borderColor: 'transparent',
   },
 };
 
